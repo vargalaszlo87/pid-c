@@ -1,0 +1,14 @@
+# ninja log v5
+4	198	7492578380081857	CMakeFiles/pid_c.dir/src/pidc.c.obj	3d145f149c2ae173
+0	98	7492239163485242	CMakeFiles/pid_c.dir/main.c.obj	ccc620d0eccefc51
+135	331	7492589329028154	pid_c.exe	cdc12d611345617a
+1	173	7492608355474202	build.ninja	4ec3dacf83b0c9eb
+4	123	7492537885961882	CMakeFiles/pid_c.dir/example/example.c.obj	7fd50a3aa15ab62c
+4	147	7492573168783453	CMakeFiles/pid_c.dir/example/example-simple.c.obj	15d09708f7a1d78b
+11	137	7492544521878901	CMakeFiles/pid_c.dir/example/example-simplest.c.obj	61074dcae0cbb346
+5	134	7492589327177841	CMakeFiles/pid_c.dir/example/example-referencevalues.c.obj	62de9edd1aa66d50
+1	170	7492608355474202	build.ninja	4ec3dacf83b0c9eb
+8	125	7492608357104818	CMakeFiles/pid_c.dir/src/pidc.c.obj	3d145f149c2ae173
+4	127	7492608357104818	CMakeFiles/pid_c.dir/tests/test_pidc.c.obj	7c1685b292e12e7a
+3	121	7492608502320275	CMakeFiles/pid_c.dir/tests/test_pidc.c.obj	7c1685b292e12e7a
+122	293	7492608503865437	pid_c.exe	2455ee2e64340bb3
