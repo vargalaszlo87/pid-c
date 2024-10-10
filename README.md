@@ -177,7 +177,7 @@ int main()
 6. Add +x
 7. Run
 
-```console
+```shell
     cd myproject
     gcc -o mypid mypid.c -L. libpidc.a
     chmod +x mypid
