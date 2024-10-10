@@ -84,13 +84,42 @@ int main()
 ```
 
 4. Enter the library
-5. Compile yor project
+5. Compile your project
 6. Add +x
 7. Run
 
 ```console
     cd myproject
     gcc mypid.c ../src/pidc. -o mypid
+    chmod +x mypid
+    ./mypid
+```
+
+#### Self compiling with static library
+
+
+1. Make a work directory
+2. Copy the **pidc.h** (from include) and the **pidc.a** to the working directory.
+3. Make a mypid.c file.
+
+Folder system:
+
+```properties
+│
+└── myproject/
+    └── mypid.c
+    └── pidc.a
+    └── pidc.h
+```
+
+4. Enter the library
+5. Compile your project
+6. Add +x
+7. Run
+
+```console
+    cd myproject
+    gcc -o mypid mypid.c -L. libpidc.a
     chmod +x mypid
     ./mypid
 ```
