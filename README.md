@@ -184,4 +184,18 @@ int main()
     ./mypid
 ```
 
+## License
+
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE.txt` for more information.
+
+
+
+
+## Contact
+
+Varga Laszlo - https://vargalaszlo.com - mail@vargalaszlo.com.com
+
+Project Link: https://github.com/vargalaszlo87/pid-c
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://vargalaszlo.com)
 
