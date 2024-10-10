@@ -88,7 +88,7 @@ int main()
 6. Add +x
 7. Run
 
-```console
+```bash
     cd myproject
     gcc mypid.c ../src/pidc. -o mypid
     chmod +x mypid
