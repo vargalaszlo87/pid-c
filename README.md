@@ -24,6 +24,10 @@ git clone https://github.com/vargalaszlo87/fGen.git
 
 #### Self compiling
 
+1. Make a work directory
+2. Copy the src and include directories to the working directory.
+3. Make a (for example) myproject directory and .c file inside it.
+
 ```properties
 │
 ├── src/
@@ -34,6 +38,13 @@ git clone https://github.com/vargalaszlo87/fGen.git
 │
 └── myproject/
     └── mypid.c
+```
+
+```console
+    cd myproject
+    gcc mypid.c ../src/pidc. -o mypid
+    chmod +x mypid
+    ./mypid
 ```
 
 ```
