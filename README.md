@@ -2,7 +2,7 @@
 PID-c is a native PID controller in pure C.
 
 
-## Features
+## 🚀 Features
 
 The data struct of this project is flexible, you can with simple data or for example measured datas.
 
@@ -14,7 +14,7 @@ The data struct of this project is flexible, you can with simple data or for exa
     pid.clamping.lowest = -1.0;
 ```
 
-## Getting started
+## ✨Getting started / Usage
 
 #### Clone source
 
@@ -184,14 +184,14 @@ int main()
     ./mypid
 ```
 
-## License
+## 👨‍⚖️ License
 
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE.txt` for more information.
 
 
 
 
-## Contact
+## 📬 Contact
 
 Varga Laszlo - https://vargalaszlo.com - mail@vargalaszlo.com.com
 
