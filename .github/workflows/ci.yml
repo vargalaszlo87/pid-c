@@ -19,5 +19,5 @@ jobs:
 
       - name: Build and run PID-c test
         run: |
-          gcc -o test_pidc tests/test_pidc.c -lm -std=c99
+          gcc -o test_pidc tests/test_pidc.c src/pidc.c -lm -std=c99
           ./test_pidc
