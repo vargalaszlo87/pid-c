@@ -1,0 +1,27 @@
+
+name: C Test with GCC
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: sudo apt-get update
+
+      - name: Build and run PID-c test
+        run: |
+          gcc -o test_pidc tests/test_pidc.c -lm -std=c99
+          ./test_pidc
+      - name: Build the example
+        run: |
+          gcc -o example_referencevalues example/example_referencevalues.c -lm -std=c99
+          ./fft_example
