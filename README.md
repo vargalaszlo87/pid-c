@@ -40,7 +40,7 @@ git clone https://github.com/vargalaszlo87/fGen.git
     └── mypid.c
 ```
 
-4. Enter the libryr
+4. Enter the library
 5. Compile yor project
 6. Add +x
 7. Run
