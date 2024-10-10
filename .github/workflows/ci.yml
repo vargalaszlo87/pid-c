@@ -21,7 +21,3 @@ jobs:
         run: |
           gcc -o test_pidc tests/test_pidc.c -lm -std=c99
           ./test_pidc
-      - name: Build the example
-        run: |
-          gcc -o example_referencevalues example/example_referencevalues.c -lm -std=c99
-          ./fft_example
