@@ -14,12 +14,35 @@ The data struct of this project is flexible, you can with simple data or for exa
     pid.clamping.lowest = -1.0;
 ```
 
+## 🧱 Project structure
+
+```properties
+│
+|
+├── example/
+│   └── example-referencevalues.c
+│   └── exapmle-simple.c
+│   └── example.simplest.c
+|
+├── include/
+│   └── pidc.h
+|
+├── lib/
+│   └── libpidc.a
+│
+├── src/
+│   └── pidc.c
+│
+└── tests/
+    └── test_pidc.c
+```
+
 ## ✨Getting started / Usage
 
 #### Clone source
 
 ```
-git clone https://github.com/vargalaszlo87/fGen.git
+git clone https://github.com/vargalaszlo87/pid-c.git
 ```
 
 #### Self compiling
