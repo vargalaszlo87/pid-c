@@ -40,19 +40,14 @@ git clone https://github.com/vargalaszlo87/fGen.git
     └── mypid.c
 ```
 
+4. Enter the libryr
+5. Compile yor project
+6. Add +x
+7. Run
+
 ```console
     cd myproject
     gcc mypid.c ../src/pidc. -o mypid
     chmod +x mypid
     ./mypid
-```
-
-```
-gcc -c src/main.c -o build/main.o -I"include"
-gcc -c src/signals.c -o build/signals.o -I"include" 
-gcc -c src/operands.c -o build/operands.o -I"include" 
-gcc -c src/outputs.c -o build/outputs.o -I"include" 
-gcc -c src/adjust.c -o build/adjust.o -I"include"
-gcc -c src/create.c -o build/create.o -I"include"
-gcc build/main.o build/signals.o build/outputs.o build/adjust.o build/create.o -o bin/fGen.exe
 ```
